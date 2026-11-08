@@ -1,0 +1,49 @@
+/* TP3 CSS *Bingo Web Academy *Etape 3 */
+
+/* ===== Remise a zero ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Structure ===== */
+
+.container {
+    background-color: red;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.main-nav,
+.showcase {
+    background-color: #cccccc;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+}
+
+/* ===== Blocs de test (layout) ===== */
+
+.home-cards,
+.ruban,
+.follow,
+.links,
+.sub-footer,
+#bigData-intro {
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+}

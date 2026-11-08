@@ -1,0 +1,102 @@
+/* TP3 CSS *Bingo Web Academy *Etape 4 */
+
+/* ===== Remise a zero ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Page ===== */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* ===== Structure ===== */
+
+.container {
+    background-color: red;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.showcase {
+    background-color: #cccccc;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+}
+
+/* ===== Navigation ===== */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.main-menu,
+.right-menu {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.main-nav li {
+    margin-right: 10px;
+}
+
+.main-nav a {
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* ===== Blocs de test (layout) ===== */
+
+.home-cards,
+.ruban,
+.follow,
+.links,
+.sub-footer,
+#bigData-intro {
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+}
